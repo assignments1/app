@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body{margin:0;
+padding:0;
+width:100%;
+height:100vh;
+background: linear-gradient(45deg,#551a8b ,#ff0000) 50% 50% no-repeat;
+background-size:cover;
+display:table;
+}
+
+#container{
+    position: fixed;
+    margin-top: 220px;
+    text-align: center;
+    width: 100%;
+}
+
+
+h1{
+    padding-bottom: 10px;
+    color:white;
+    font-family:Raleway;
+    font-weight: 300;
+    font-size: 500%;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+p{
+    color: wheat;
+    font-family: Raleway;
+    font-weight: lighter;
+    letter-spacing: 11px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btnn{
+    margin-top: 20px;
+    text-align: center;
+      font-weight: 500;
+    align-items: center;
+    z-index: 10;
+    font-size: 135%;
+    border-radius: 9px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    background-color:#58cc26;
+    color: #fff;
+    border: solid white 0.2px;
+    font-family: Oswald;
+    
+    
+}
+
+.btnn:hover{
+        text-decoration: none;
+        color: white;
+        background-color: transparent;
+        border: solid #f9f4f3 1.4px;
+
+
+}
+
+
+@media(max-width:768px){
+    h1{
+        font-size: 270%;
+    }
+    p{
+        font-size: 17px;
+        letter-spacing: 10px;
+    }
+}
